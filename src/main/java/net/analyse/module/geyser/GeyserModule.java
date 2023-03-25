@@ -13,11 +13,21 @@ import org.geysermc.api.Geyser;
 
 public class GeyserModule extends PlatformModule implements Listener {
     @Override
+    public String getName() {
+        return "Geyser";
+    }
+
+    @Override
+    public String getRequiredPlugin() {
+        return "Geyser-Spigot";
+    }
+
+    @Override
     public void onEnable() {
-        // Do something when the plugin is enabled.
-        if(! Bukkit.getServer().getPluginManager().isPluginEnabled("Geyser")) {
-            disable("Geyser is not installed on this server.");
-        }
+    }
+
+    @Override
+    public void onDisable() {
 
     }
 
