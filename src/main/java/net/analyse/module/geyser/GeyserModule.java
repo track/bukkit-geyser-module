@@ -1,9 +1,8 @@
 package net.analyse.module.geyser;
 
-import net.analyse.sdk.module.PlatformModule;
 import net.analyse.sdk.obj.AnalysePlayer;
+import net.analyse.sdk.platform.PlatformModule;
 import net.analyse.sdk.platform.PlayerType;
-import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
